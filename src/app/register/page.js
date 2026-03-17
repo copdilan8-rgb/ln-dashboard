@@ -60,7 +60,7 @@ export default function RegisterPage() {
           data: {
             nombre_completo: nombreLimpio,
           },
-          emailRedirectTo: "http://localhost:3000/email-confirmado",
+          emailRedirectTo: "https://ln-dashboard-six.vercel.app/email-confirmado",
         },
       });
 

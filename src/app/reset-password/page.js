@@ -35,7 +35,7 @@ export default function ResetPasswordPage() {
       setLoading(true);
 
       const { error } = await supabase.auth.resetPasswordForEmail(emailLimpio, {
-        redirectTo: "http://localhost:3000/update-password",
+        redirectTo: "https://ln-dashboard-six.vercel.app/update-password",
       });
 
       if (error) {
